@@ -246,7 +246,7 @@ p {
     body {
       padding: 40px;
       background-color: #d3cce3;
-      background: linear-gradient(to bottom, #F5E3E6, #D9E4F5);
+      background: linear-gradient(to bottom right, #F5E3E6, #D9E4F5);
     }
 
     .container {
