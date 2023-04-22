@@ -36,7 +36,6 @@ body {
 .container {
   height: 100%;
   max-width: 100%;
-  padding: 50px;
   aspect-ratio: 0.70;
 }
 
@@ -155,6 +154,7 @@ p {
   }
 
   .container {
+    padding: 50px;
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   }
