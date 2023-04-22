@@ -39,7 +39,7 @@ body {
 
 .page-description {
   font-size: 15px;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .display-1 {
@@ -189,14 +189,15 @@ p {
 
   .sections {
     flex-direction: row;
+    gap: 50px;
   }
 
   .sections__left {
-    width: 60%;
+    width: calc(60% - 25px);
   }
   
   .sections__right {
-    width: 40%;
+    width: calc(40% - 25px);
   }
 
   .display-1 {
