@@ -246,27 +246,9 @@ p {
     body {
       padding: 40px;
       background-color: #d3cce3;
-      background: linear-gradient(to bottom, #d3cce3, #e9e4f0);
+      background: linear-gradient(to bottom, #F5E3E6, #D9E4F5);
     }
 
-    body::after {
-      content: '';
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background: repeating-linear-gradient(
-        45deg,
-        transparent,
-        transparent 5px,
-        #e9e4f0 5px,
-        #e9e4f0 10px
-      );
-      opacity: 0.2;
-    }
-  
     .container {
       position: relative;
       z-index: 2;
