@@ -102,6 +102,15 @@ body {
   font-weight: normal;
 }
 
+.badge {
+  margin-left: 5px;
+  background-color: #ececec;
+  color: var(--color-faded);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
 p {
   color: #000;
   font-size: 14px;
