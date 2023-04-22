@@ -248,8 +248,28 @@ p {
       background-color: #d3cce3;
       background: linear-gradient(to bottom, #d3cce3, #e9e4f0);
     }
+
+    body::after {
+      content: '';
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 5px,
+        #e9e4f0 5px,
+        #e9e4f0 10px
+      );
+      opacity: 0.2;
+    }
   
     .container {
+      position: relative;
+      z-index: 2;
       padding: 50px;
       background-color: #fff;
       box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.1);
