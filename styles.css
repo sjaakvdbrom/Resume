@@ -43,11 +43,18 @@ body {
 }
 
 .display-1 {
-  margin-bottom: 11px;
+  margin-bottom: 8px;
   font-size: 28px;
 }
 
 .page-sub-title {
+  margin-bottom: 20px;
+  color: var(--color-faded);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.page-links {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -57,12 +64,12 @@ body {
   font-weight: normal;
 }
 
-.page-sub-title__text {
+.page-links__item {
   display: flex;
   align-items: center;
 }
 
-.page-sub-title__text::after {
+.page-links__item:not(:last-child)::after {
   content: '';
   display: inline-block;
   margin-left: 15px;
