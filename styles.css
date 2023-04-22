@@ -44,7 +44,7 @@ body {
 
 .display-1 {
   margin-bottom: 11px;
-  font-size: 34px;
+  font-size: 28px;
 }
 
 .page-sub-title {
@@ -172,11 +172,15 @@ p {
   .sections__right {
     width: 40%;
   }
+
+  .display-1 {
+    font-size: 34px;
+  }
 }
 
 @media not print {
   .container {
-    padding: 50px;
+    padding: 20px;
   }
 
   @media (min-width: 768px) {
@@ -186,6 +190,7 @@ p {
     }
   
     .container {
+      padding: 50px;
       background-color: #fff;
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
     }
