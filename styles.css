@@ -85,6 +85,39 @@ body {
   gap: 50px;
 }
 
+.timeline-wrapper {
+  overflow: hidden;
+}
+
+.timeline-section {
+  padding-left: 20px;
+}
+
+.timeline-title {
+  position: relative;
+}
+
+.timeline-title::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 9px;
+  bottom: 0;
+  height: 1px;
+  width: 12px;
+  background-color: var(--color-faded);
+}
+
+.timeline-title::after {
+  content: '';
+  position: absolute;
+  left: -20px;
+  height: 100vh;
+  bottom: calc(100% - 9px);
+  width: 1px;
+  background-color: var(--color-faded);
+}
+
 .display-2 {
   margin-bottom: 20px;
   color: #000;
