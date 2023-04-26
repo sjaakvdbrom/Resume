@@ -107,7 +107,7 @@ body {
   bottom: 0;
   height: 1px;
   width: 8px;
-  background-color: var(--color-faded);
+  background-color: var(--color-border);
 }
 
 .timeline-title::after {
@@ -117,7 +117,7 @@ body {
   height: 100vh;
   bottom: calc(100% - 8px);
   width: 1px;
-  background-color: var(--color-faded);
+  background-color: var(--color-border);
 }
 
 .display-1 {
