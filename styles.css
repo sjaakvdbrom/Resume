@@ -87,11 +87,10 @@ body {
 
 .timeline-wrapper {
   overflow: hidden;
-  padding-top: 2px;
 }
 
 .timeline-section {
-  padding-left: 20px;
+  padding-left: 16px;
 }
 
 .timeline-title {
@@ -101,18 +100,18 @@ body {
 .timeline-title::before {
   content: '';
   position: absolute;
-  left: -20px;
+  left: -16px;
   top: 8px;
   bottom: 0;
   height: 1px;
-  width: 12px;
+  width: 8px;
   background-color: var(--color-faded);
 }
 
 .timeline-title::after {
   content: '';
   position: absolute;
-  left: -20px;
+  left: -16px;
   height: 100vh;
   bottom: calc(100% - 8px);
   width: 1px;
