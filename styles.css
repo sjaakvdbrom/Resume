@@ -1,7 +1,8 @@
 :root {
-  --color-faded: #939598;
-  --color-faded2: #70706F;
+  --color-faded: #70706F;
   --color-border: #C4C4C4;
+  --color-black: #000;
+  --color-title: var(--color-black);
 }
 
 html,
@@ -9,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
+  color: var(--color-faded);
   font-family: 'Inter', sans-serif;
   -webkit-print-color-adjust: exact;
   color-adjust: exact;
@@ -61,7 +63,7 @@ body {
   flex-wrap: wrap;
   gap: 5px;
   margin-bottom: 20px;
-  color: var(--color-faded);
+  color: var(--color-black);
   font-size: 14px;
   font-weight: normal;
 }
@@ -118,22 +120,26 @@ body {
   background-color: var(--color-faded);
 }
 
+.display-1 {
+  color: var(--color-title);
+}
+
 .display-2 {
   margin-bottom: 20px;
-  color: #000;
+  color: var(--color-title);
   font-size: 18px;
 }
 
 .display-3 {
   margin-bottom: 10px;
-  color: #000;
+  color: var(--color-title);
   font-size: 14px;
   font-weight: bold;
 }
 
 .display-4 {
   margin-bottom: 5px;
-  color: var(--color-faded);
+  color: #000;
   font-size: 14px;
   font-weight: normal;
 }
@@ -158,7 +164,6 @@ a {
 }
 
 p {
-  color: #000;
   font-size: 14px;
   line-height: 1.4;
 }
