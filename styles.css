@@ -100,6 +100,10 @@ body {
   overflow: hidden;
 }
 
+.description {
+  margin-bottom: 15px;
+}
+
 .timeline-section {
   padding-left: 16px;
 }
