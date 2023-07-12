@@ -69,7 +69,8 @@ body {
 
 .page-header {
   display: flex;
-  gap: 30px;
+  flex-direction: column;
+  gap: 15px;
   padding-bottom: 40px;
   border-bottom: 1px solid var(--color-border);
 }
@@ -313,6 +314,11 @@ p {
       padding: 50px;
       background-color: #fff;
       box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .page-header {
+      flex-direction: row;
+      gap: 30px;
     }
   }
 }
